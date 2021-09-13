@@ -1,20 +1,20 @@
 apiVersion: v1
 entries:
-  podinfo2:
+  podinfo:
   - apiVersion: v1
     appVersion: 6.0.0
-    created: "2021-09-11T12:35:30.675034-07:00"
+    created: "2021-09-13T12:11:27.356591-07:00"
     description: Podinfo Helm chart for Kubernetes
-    digest: 17ce795cf42fa9fbef595aa9c24647dc49ee8a7ba1a8f99ef3f84b391d410b4d
-    home: https://github.com/satya-dillikar/podinfo2
+    digest: 60d70575792447293b2a53abfc33ccc539e47b148fd14c3608d42a1fa712cee3
+    home: https://github.com/satya-dillikar/podinfo
     kubeVersion: '>=1.19.0-0'
     maintainers:
     - email: satya-dillikar@users.noreply.github.com
       name: satya-dillikar
-    name: podinfo2
+    name: podinfo
     sources:
-    - https://github.com/satya-dillikar/podinfo2
+    - https://github.com/satya-dillikar/podinfo
     urls:
-    - https://github.com/satya-dillikar/helm-chart/podinfo2-6.0.0.tgz
+    - https://github.com/satya-dillikar/helm-chart/podinfo-6.0.0.tgz
     version: 6.0.0
-generated: "2021-09-11T12:35:30.673623-07:00"
+generated: "2021-09-13T12:11:27.354938-07:00"
