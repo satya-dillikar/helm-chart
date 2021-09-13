@@ -3,7 +3,7 @@ entries:
   podinfo:
   - apiVersion: v1
     appVersion: 6.0.0
-    created: "2021-09-13T12:22:37.252444-07:00"
+    created: "2021-09-13T12:11:27.356591-07:00"
     description: Podinfo Helm chart for Kubernetes
     digest: 60d70575792447293b2a53abfc33ccc539e47b148fd14c3608d42a1fa712cee3
     home: https://github.com/satya-dillikar/podinfo
@@ -17,4 +17,4 @@ entries:
     urls:
     - https://github.com/satya-dillikar/helm-chart/podinfo-6.0.0.tgz
     version: 6.0.0
-generated: "2021-09-13T12:22:37.250337-07:00"
+generated: "2021-09-13T12:11:27.354938-07:00"
