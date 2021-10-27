@@ -1,9 +1,52 @@
 apiVersion: v1
 entries:
+  mychart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.351146-07:00"
+    description: A Helm354 chart for Kubernetes
+    digest: 84692ff1006114877a94ddf06f289a354770942958459a7ed9e6cd00f1395c69
+    name: mychart
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/mychart-0.1.0.tgz
+    version: 0.1.0
   podinfo:
   - apiVersion: v1
+    appVersion: 6.0.1
+    created: "2021-10-27T12:52:15.356171-07:00"
+    description: Podinfo Helm chart for Kubernetes
+    digest: ef198723c431c657f400842d0a3497bc5ad5077ef002996da11253471286b7b8
+    home: https://github.com/satya-dillikar/podinfo
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: satya-dillikar@users.noreply.github.com
+      name: satya-dillikar
+    name: podinfo
+    sources:
+    - https://github.com/satya-dillikar/podinfo
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/podinfo-7.0.0.tgz
+    version: 7.0.0
+  - apiVersion: v1
+    appVersion: 6.0.1
+    created: "2021-10-27T12:52:15.354487-07:00"
+    description: Podinfo Helm chart for Kubernetes
+    digest: 91d58172923e84359efc4dcabb1e4e042e3389d6b9a84f359ea4a371a696d627
+    home: https://github.com/satya-dillikar/podinfo
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: satya-dillikar@users.noreply.github.com
+      name: satya-dillikar
+    name: podinfo
+    sources:
+    - https://github.com/satya-dillikar/podinfo
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/podinfo-6.0.1.tgz
+    version: 6.0.1
+  - apiVersion: v1
     appVersion: 6.0.0
-    created: "2021-09-13T12:39:11.725896-07:00"
+    created: "2021-10-27T12:52:15.353401-07:00"
     description: Podinfo Helm chart for Kubernetes
     digest: 60d70575792447293b2a53abfc33ccc539e47b148fd14c3608d42a1fa712cee3
     home: https://github.com/satya-dillikar/podinfo
@@ -15,6 +58,374 @@ entries:
     sources:
     - https://github.com/satya-dillikar/podinfo
     urls:
-    - https://satya-dillikar.github.io/helm-chart/podinfo-6.0.0.tgz
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/podinfo-6.0.0.tgz
     version: 6.0.0
-generated: "2021-09-13T12:39:11.724626-07:00"
+  - apiVersion: v1
+    appVersion: 0.20.0
+    created: "2021-10-27T12:52:15.352273-07:00"
+    description: Podinfo Helm354 chart for Kubernetes
+    digest: 4eeadc2dde175ec6c6ea2d500f7950931b0016529904944f251439c9b79f809a
+    home: https://github.com/satya-dillikar/podinfo
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: satya-dillikar@users.noreply.github.com
+      name: satya-dillikar
+    name: podinfo
+    sources:
+    - https://github.com/satya-dillikar/podinfo
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/podinfo-0.20.0.tgz
+    version: 0.20.0
+  wordpress:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.359479-07:00"
+    description: A Helm chart for Kubernetes
+    digest: d9171f3d47e1aa590ebcfb8a88fe2044eb20b96023f07cd3b2b788be5141aa6e
+    name: wordpress
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-0.19.0.tgz
+    version: 0.19.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.359209-07:00"
+    description: A Helm chart for Kubernetes
+    digest: 077624b5d32d53b6bcce06601786b0e973f556edd4c2f991a8be118b12f138f1
+    name: wordpress
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-0.18.0.tgz
+    version: 0.18.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.358931-07:00"
+    description: A Helm chart for Kubernetes
+    digest: 2293314ea54382677fe252bfd1a4866cbd96a9cfbbd5d1b6d0e435554f772f6a
+    name: wordpress
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-0.17.0.tgz
+    version: 0.17.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.358629-07:00"
+    description: A Helm chart for Kubernetes
+    digest: 427dd90105bc20788c03991c745400b7122bb51c3694aaa29cf047e8cd7c9d91
+    name: wordpress
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-0.16.0.tgz
+    version: 0.16.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.358309-07:00"
+    description: A Helm chart for Kubernetes
+    digest: dbd8196abdabb9d472ed3431fe92fd7d7dac7b88094ba93764eb5d78642032eb
+    name: wordpress
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-0.15.0.tgz
+    version: 0.15.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.357957-07:00"
+    description: A Helm chart for Kubernetes
+    digest: 49edac54027734e0b8fc2dee1176af23788ba7a48dbb4f2d1ce14a8da9c11f56
+    name: wordpress
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-0.14.0.tgz
+    version: 0.14.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.357644-07:00"
+    description: A Helm chart for Kubernetes
+    digest: 273db9c0cec365bee09fa6217379fa06a327259bc031a46eb415e27298c41c47
+    name: wordpress
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-0.13.0.tgz
+    version: 0.13.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.357307-07:00"
+    description: A Helm chart for Kubernetes
+    digest: 050e1c541f65f2dd9e4fc1b2000caa4ee0e2038248cb91c851fd67c81adddce9
+    name: wordpress
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-0.12.0.tgz
+    version: 0.12.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.356899-07:00"
+    description: A Helm chart for Kubernetes
+    digest: 5770a5b5325a458b00c07e52ecd83f21ee47807f72642786fa8ae25b2dc552b7
+    name: wordpress
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-0.11.0.tgz
+    version: 0.11.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.356503-07:00"
+    description: A Helm chart for Kubernetes
+    digest: 9cd52d708c84b13f51c0e6c885813852fcfcc6d454212c758e3d15aa711c3296
+    name: wordpress
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-0.10.0.tgz
+    version: 0.10.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.361561-07:00"
+    description: A Helm chart for Kubernetes
+    digest: 3bbbd80c6e19fb15d716dc56ca0d76b8a08c210a3a14b7172eab4d9b9507780f
+    name: wordpress
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-0.9.0.tgz
+    version: 0.9.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.361258-07:00"
+    description: A Helm chart for Kubernetes
+    digest: dfcd7869c54d0516e4912b7d979760a32cbdee87d5b31f22a130efe76ead0e01
+    name: wordpress
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-0.8.0.tgz
+    version: 0.8.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.360967-07:00"
+    description: A Helm chart for Kubernetes
+    digest: 9e1a239a508db2f09840f9d8de7b89ee6e6b35a6a02001762bd2173c50e5afc5
+    name: wordpress
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-0.7.0.tgz
+    version: 0.7.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.36068-07:00"
+    description: A Helm chart for Kubernetes
+    digest: 58e8e4b7e8a0a948c95d75c1ea18b1abbcc61583bfc29d0006a4413d4dcae0c7
+    name: wordpress
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-0.6.0.tgz
+    version: 0.6.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.360355-07:00"
+    description: A Helm chart for Kubernetes
+    digest: 15af3d2ba5e76f64cb23f0ae08e89a97fcf11d504d711cdc32aa2b20137faaee
+    name: wordpress
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.360055-07:00"
+    description: A Helm chart for Kubernetes
+    digest: 6b841d79ba393fffb9c90de704bfbcb0720262516e3fd6c60499206a65419dee
+    name: wordpress
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.359753-07:00"
+    description: A Helm chart for Kubernetes
+    digest: 31d6a366e0dcb8f8b3fb839c9699b2c3ccd0bf423d02347a0c74dcdc0c55c7f0
+    name: wordpress
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.350532-07:00"
+    description: A Helm chart for Kubernetes
+    digest: e5b2818ecf1d801911812997e68c42653d9be23f53bb0097b6c5feb3fa93ba1f
+    name: wordpress
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/wordpress-0.2.0.tgz
+    version: 0.2.0
+  wordpress-mysql-stateless:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.365936-07:00"
+    description: A Helm chart for Kubernetes
+    digest: 7123c719e666499cc2931f54e3970d7cd4cc220dc9fefead9788a52c2d6f0591
+    name: wordpress-mysql-stateless
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-mysql-stateless-0.17.0.tgz
+    version: 0.17.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.365554-07:00"
+    description: A Helm chart for Kubernetes
+    digest: efa1e3655bec2054561a5819fdbaf7c03998f804749ee1d42135fecdc37c2c00
+    name: wordpress-mysql-stateless
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-mysql-stateless-0.16.0.tgz
+    version: 0.16.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.365163-07:00"
+    description: A Helm chart for Kubernetes
+    digest: e48f7a057cd31ba0e2247949a3016e4d30cfc55f4ee31d07fe591e18a4ad943c
+    name: wordpress-mysql-stateless
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-mysql-stateless-0.15.0.tgz
+    version: 0.15.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.364739-07:00"
+    description: A Helm chart for Kubernetes
+    digest: 73bcade23c4833a00ba3050e365457fe7defaccb797ac77a9aebbe3c9f9a5581
+    name: wordpress-mysql-stateless
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-mysql-stateless-0.14.0.tgz
+    version: 0.14.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.363881-07:00"
+    description: A Helm chart for Kubernetes
+    digest: 1fcc36341efb1fe501c84daff388d8c3e1af628bdcddf6d535c0ef363f792c12
+    name: wordpress-mysql-stateless
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-mysql-stateless-0.13.0.tgz
+    version: 0.13.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.363426-07:00"
+    description: A Helm chart for Kubernetes
+    digest: 41066c005ad083564d7f32d9a5c8b7b2ffd231de753f4c6c7ec43df2ef96472c
+    name: wordpress-mysql-stateless
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-mysql-stateless-0.12.0.tgz
+    version: 0.12.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.363001-07:00"
+    description: A Helm chart for Kubernetes
+    digest: 3a276407c72fa73db5f63102f74f3d5a6d80036719726c87fd7fb472b4f58e1b
+    name: wordpress-mysql-stateless
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-mysql-stateless-0.11.0.tgz
+    version: 0.11.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.362549-07:00"
+    description: A Helm chart for Kubernetes
+    digest: 76788a734d9f8d403a959e83292a8e007957faa9bdfebb9e0591a8c4273b1a7a
+    name: wordpress-mysql-stateless
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-mysql-stateless-0.10.0.tgz
+    version: 0.10.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.369506-07:00"
+    description: A Helm chart for Kubernetes
+    digest: ce689f37f5452977b585ade03b66fa4bb6af842443ce288f0c0310f5ffb41a2b
+    name: wordpress-mysql-stateless
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-mysql-stateless-0.9.0.tgz
+    version: 0.9.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.369043-07:00"
+    description: A Helm chart for Kubernetes
+    digest: b1f72fddbd2d9d0bcbbf270096e6273204da097d38c91a98f759e6cbc2d12b0c
+    name: wordpress-mysql-stateless
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-mysql-stateless-0.8.0.tgz
+    version: 0.8.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.368592-07:00"
+    description: A Helm chart for Kubernetes
+    digest: ace427d204ce6a6f30c68d933617d4eb11a35557f56b5bb26460e1b2e9d7d57f
+    name: wordpress-mysql-stateless
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-mysql-stateless-0.7.0.tgz
+    version: 0.7.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.36814-07:00"
+    description: A Helm chart for Kubernetes
+    digest: a967426f804839fefb71c137f68fc7686f9912ebb10c3c4ae2db82b558ca9b76
+    name: wordpress-mysql-stateless
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-mysql-stateless-0.6.0.tgz
+    version: 0.6.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.36771-07:00"
+    description: A Helm chart for Kubernetes
+    digest: d658c2df4b42528ad1ef8377114c53dc358600ab3f4c2b7aa98a5e55fa48fb27
+    name: wordpress-mysql-stateless
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-mysql-stateless-0.5.0.tgz
+    version: 0.5.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.367298-07:00"
+    description: A Helm chart for Kubernetes
+    digest: b21bab8ac0fff6874ea07a80f15d62fc121b6c698df5d5b7380cfa51d0c6ea72
+    name: wordpress-mysql-stateless
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-mysql-stateless-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.36678-07:00"
+    description: A Helm chart for Kubernetes
+    digest: 8ce3411d0cfe0baa7f39cb529860e24012ffbc831f6eae8ba5308d875cb0d8b2
+    name: wordpress-mysql-stateless
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-mysql-stateless-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.366359-07:00"
+    description: A Helm chart for Kubernetes
+    digest: c15ceb80c1b0dbb4b435087ea073802fe5ced61e1a651ded2dab4b69e5da677d
+    name: wordpress-mysql-stateless
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-mysql-stateless-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-10-27T12:52:15.362019-07:00"
+    description: A Helm chart for Kubernetes
+    digest: 9d18dd0c71c4c5772c97f66c6531aeff954d7d2365c3bae060a4b72cf7303f62
+    name: wordpress-mysql-stateless
+    type: application
+    urls:
+    - https://satya-dillikar.github.io/helm-chart/helm-chart-sources/wordpress-mysql-stateless-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-10-27T12:52:15.349921-07:00"
