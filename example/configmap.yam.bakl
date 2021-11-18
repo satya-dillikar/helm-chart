@@ -1,0 +1,61 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-configmap
+data:
+  myvalue: "Hello World"
+  drink0: {{ .Values.favoriteDrink }}
+  drink1: {{ .Values.favorite.drink }}
+  food1: {{ .Values.favorite.food }}
+  drink2: {{ quote .Values.favorite.drink }}
+  food2: {{ quote .Values.favorite.food }}
+  drink3: {{ .Values.favorite.drink | quote }}
+  food3: {{ .Values.favorite.food | quote }}
+  food4: {{ .Values.favorite.food | upper | quote }}
+  drink4: {{ .Values.favorite.drink | repeat 5 | quote }}
+  drink: {{ .Values.favorite.hotdrink | default "tea" | quote }}
+ {{ if and .Values.favorite.drink (eq .Values.favorite.drink "coffee") }} mug: true {{ end }}
+  {{ if eq .Values.favorite.drink "coffee" }}
+  mug2: true
+  {{ end }}
+  {{- if eq .Values.favorite.drink "coffee" -}}
+  mug3: true
+  {{- end -}}
+  {{- with .Values.favorite }}
+  drink5: {{ .drink | default "tea" | quote }}
+  food5: {{ .food | upper | quote }}
+  {{- end }}
+  toppings: |-
+    {{- range .Values.pizzaToppings }}
+    - {{ . | title | quote }}
+    {{- end }}
+  sizes: |-
+    {{- range list "small" "medium" "large" }}
+    - {{ . }}
+    {{- end }}
+  {{- $relname := .Release.Name -}}
+  {{- with .Values.favorite }}
+  drink6: {{ .drink | default "tea" | quote }}
+  food6: {{ .food | upper | quote }}
+  release: {{ $relname }}
+  {{- end }}
+  toppings2: |-
+    {{- range $index, $topping := .Values.pizzaToppings }}
+      {{ $index }}: {{ $topping | title | quote}}
+    {{- end }}
+  {{- range $key, $val := .Values.favorite }}
+  {{ $key }}: {{ $val | quote }}
+  {{- end}}
+  {{- $files := .Files }}
+  {{- range list "config1.toml" "config2.toml" "config3.toml" }}
+  {{ . }}: |-
+    {{ $files.Get . }}
+  {{- end }}
+  config4.toml: |-
+    message = "Hello from config 4"
+  config5.toml: |-
+    message = "This is config 5"
+  config6.toml: |-
+    message = "Goodbye from config 6"
+  token: |-
+    {{ .Files.Get "config1.toml" | b64enc }}

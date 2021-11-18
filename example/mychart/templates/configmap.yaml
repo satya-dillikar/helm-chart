@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-configmap
+data:
+  myvalue: "Hello World"
+  token: |-
+    {{ .Files.Get "config1.toml" | b64enc }}
+  config4.toml: |-
+    message = "Hello from config 4"
+  plugins.conf: |-
+{{ .Values.pluginConfig | toPrettyJson | indent 4 }}

@@ -1,0 +1,17 @@
+favoriteDrink: coffee
+favorite:
+  drink: coffee
+  food: pizza
+pizzaToppings:
+  - mushrooms
+  - cheese
+  - peppers
+  - onions
+pluginConfig:
+  core:
+    packages:
+      v1alpha1:
+        versionsInSummary:
+          major: 3
+          minor: 3
+          patch: 3
